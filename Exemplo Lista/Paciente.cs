@@ -14,6 +14,8 @@ namespace Exemplo_Lista
         public string Email { get; set; }
         public DateTime DataNasc { get; set; }
 
+        public Paciente() { }
+
         public Paciente(int id_paciente, string nome, string cpf, string email, DateTime dataNasc)
         {
             this.Id_paciente = id_paciente;
